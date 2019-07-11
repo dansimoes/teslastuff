@@ -2,8 +2,8 @@
 # check for correct syntax
 if [ $# -ne 1 ]
 then
- echo "format_tesla_usb <disk>"
- echo "ex format_tesla_usb disk3"
+ echo "format_tesla_2vol <disk>"
+ echo "ex format_tesla_2vol disk3"
  echo "verify disk number by running diskutil list like this:"
  diskutil list
  echo "determine which disk number you need and rerun this command adding the name of the disk."
