@@ -1,5 +1,6 @@
+#!/bin/bash
 # creates formatted single volume for TeslaCam
-# tested and works on OSX Mojave 10.14.5
+# tested and works on macOS Mojave 10.14.5
 # check for correct syntax
 if [ $# -ne 1 ]
 then
